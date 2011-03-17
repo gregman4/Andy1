@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="fill_parent" 
-              android:layout_height="fill_parent" 
-              android:orientation="vertical" >
+              android:layout_height="fill_parent" android:orientation="vertical">
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
   android:id="@+id/textview"
   android:layout_width="wrap_content"
   android:layout_height="wrap_content"
   android:text="@string/drew"/>
-  <TextView 
-  	android:id="@+id/idme"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Hello, I am a TextView  up your subwoofer and enjoy this classic Pac Div!
-About Artist: Pac Div (Pacific Division) is a Hip Hop trio from LA. I first heard of them back in 2009 when I saw them open for B.o.B and Kid Cudi and they were one of the best live performers I’ve ever seen. The three of them are very young and their kid like energy really comes through in their performance. At the time Pac Div was realeasing their second mixtape Church Legeaue Champs but now have gotten to their fourth mixtape Mania! which is a great mixtape for you speakers.
-About Song: This new hip hop song is from Pac Div’s mixtape Mania! I like this song because it has a great bass beat (like all Pac Div songs) matched with a fun and clever flow. I just love to t" />
+  
+<EditText android:layout_height="wrap_content" android:text="write here" android:id="@+id/stringVar" android:layout_width="match_parent"></EditText>
+
+
+
+ 
+  <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+<TableRow>
+<Button android:text="Button" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+   <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/android_button" 
+        android:layout_width="match_parent"></Button>
+</TableRow>
+
+</TableLayout>
  </LinearLayout><!--  -->
+ 
