@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="wha">WHATson</string>
-    <string name="drew">drufus</string>
+    <string name="drew">TicTacToe</string>
     <string name="app_name">Gregs App</string>
 </resources>

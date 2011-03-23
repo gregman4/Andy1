@@ -12,19 +12,23 @@
 
 
 
- 
-  <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
 
-<TableRow>
-<Button android:text="Button" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-   <Button
-        android:id="@+id/button"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:background="@drawable/android_button" 
-        android:layout_width="match_parent"></Button>
-</TableRow>
+	<TableLayout android:id="@+id/tableLayout1"
+		android:layout_height="wrap_content" android:layout_width="match_parent">
+		<Button android:text="Button" android:id="@+id/button1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		<TableRow>
+			<Button android:id="@+id/oneButton" android:layout_height="wrap_content"
+				android:padding="10dp" android:background="@drawable/one"
+				android:layout_width="match_parent"></Button>
+
+			<Button android:id="@+id/twoButton" android:layout_height="wrap_content"
+				android:padding="10dp" android:background="@drawable/two"
+				android:layout_width="match_parent"></Button>
+		</TableRow>
+
 
 </TableLayout>
+
  </LinearLayout><!--  -->
  
